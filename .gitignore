@@ -6,6 +6,8 @@ __pycache__/
 venv/
 env/
 
+gemini.md
+
 # Logs
 *.log
 ingest_log.txt
@@ -38,4 +40,4 @@ test_db_crash*/
 tmp/
 debug_*.py
 test_*.py
-Untitled*.ipynb
+
