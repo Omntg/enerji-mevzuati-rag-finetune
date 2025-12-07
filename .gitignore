@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+ingest_log.txt
+
+# Database
+chroma_db/
+*.sqlite3
+
+# Large Model Files (Too big for GitHub)
+fine_tuned_models/
+*.safetensors
+*.bin
+*.pth
+
+# Environment Variables
+.env
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Temporary / Debug Files
+test_db_crash*/
+tmp/
+debug_*.py
+test_*.py
+Untitled*.ipynb
